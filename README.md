@@ -73,18 +73,13 @@ Coach Buddy: I'm so proud of you for taking the first step towards your goals. T
    pip install -r requirements.txt
    ```
 
-3. **Create your `.env` file:**
-   ```bash
-   cp .env.example .env
-   ```
-
-4. **Edit `.env` with your actual keys:**
+3. **Edit `.env` with your actual keys:**
    ```
    TOKEN=your_discord_bot_token_here
    GROQ_API_KEY=your_groq_api_key_here
    ```
 
-5. **Run the bot:**
+4. **Run the bot:**
    ```bash
    python discord-groq.py
    ```
@@ -96,8 +91,7 @@ Coach Buddy: I'm so proud of you for taking the first step towards your goals. T
 ```
 Discord-Virtual-Assistant/
 ├── discord-groq.py      # Main bot code with Coach Buddy personality
-├── .env.example         # Template for environment variables
-├── .env                 # Your actual secrets (not tracked by git)
+├── .env                 # Environment variables (replace placeholders with your keys)
 ├── .gitignore           # Files to ignore in git
 ├── requirements.txt     # Python dependencies
 └── README.md            # This file
@@ -118,7 +112,7 @@ Discord-Virtual-Assistant/
 
 ## ⚠️ Important Security Note
 
-Never commit your `.env` file to GitHub! It contains sensitive API keys. The `.gitignore` file is configured to prevent this, but always double-check before pushing.
+The `.env` file in this repository contains placeholder values. Replace them with your actual API keys before running the bot. Never share your real API keys publicly!
 
 ---
 
