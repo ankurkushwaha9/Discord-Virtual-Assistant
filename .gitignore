@@ -1,6 +1,3 @@
-# Environment variables (IMPORTANT: Keep your secrets safe!)
-.env
-
 # Python
 __pycache__/
 *.py[cod]
